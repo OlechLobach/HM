@@ -212,7 +212,7 @@ def main():
             password = input("Введіть пароль: ")
             users.append(User(username, password))
             save_users(users)
-            print("Користувач зареєстрований.")
+            print("Користувач зареєстрованиий.")
 
         elif choice == "2":
             username = input("Введіть ім'я користувача: ")
